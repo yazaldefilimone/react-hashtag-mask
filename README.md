@@ -37,7 +37,7 @@ _Notice:_ returns a pure HTML input, you could put css or do what you would do w
 
 ## Exemple
 
-[mask Exemple](.assets/mask.png)
+![Mask Exemple](.assets/mask.png)
 
 ## License
 
