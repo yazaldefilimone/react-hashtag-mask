@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import { InputMask } from './components/input-mask';
+import { InputMask } from './input-mask';
 
 export const Demo: FunctionComponent = () => {
   return (

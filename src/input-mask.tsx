@@ -1,6 +1,6 @@
 import { ChangeEvent, FunctionComponent, useState } from 'react';
-import { scriptMask } from '../scripts';
-import { inputMaskPropsType } from '../types';
+import { scriptMask } from './scripts';
+import { inputMaskPropsType } from './types';
 
 type eventChangeType = ChangeEvent<HTMLInputElement>;
 
