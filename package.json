@@ -3,12 +3,34 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yazaldefilimonepinto/react-mask.git"
+  },
+  "keywords": [
+    "reactjs",
+    "next.js",
+    "remix",
+    "remix-run",
+    "react-mask",
+    "frondend",
+    "input",
+    "input-mask"
+  ],
+  "author": "Yazalde Filimone <yazaldefilimon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yazaldefilimonepinto/react-mask/issues"
+  },
+  "homepage": "https://github.com/yazaldefilimonepinto/react-mask#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ci": "vitest run --coverage"
+    "test:ci": "vitest run --coverage",
+    "format": "prettier --write \"**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
   },
   "dependencies": {},
   "devDependencies": {
@@ -18,8 +40,11 @@
     "@types/react-dom": "^18.0.9",
     "@vitejs/plugin-react": "^3.0.0",
     "jsdom": "^20.0.3",
+    "prettier": "^2.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
     "vitest": "^0.26.3"
