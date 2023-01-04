@@ -1,0 +1,122 @@
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  background-color: #18181b;
+  margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title {
+  color: #d4d4d8;
+  font-weight: 400;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.header p {
+  margin: 0px;
+  color: #71717a;
+  display: flex;
+  align-items: center;
+  column-gap: .5rem;
+}
+
+.header img {
+  margin: 0px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.header a {
+  display: flex;
+  align-items: center;
+  column-gap: .4rem;
+  color: #d4d4d8;
+  text-decoration: none;
+}
+
+.header h2 {
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 0px;
+
+}
+
+input[type="text"] {
+  font: 15px/24px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #d4d4d8;
+  width: 100%;
+  background: none;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+}
+
+:focus {
+  outline: none;
+}
+
+.col-3 {
+  width: 400px;
+  position: relative;
+}
+
+.effect-7 {
+  border: 1px solid #ccc;
+  padding: 7px 14px 9px;
+  transition: 0.4s;
+}
+
+.effect-7~.focus-border:before,
+.effect-7~.focus-border:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #6d28d9;
+  transition: 0.4s;
+}
+
+.effect-7~.focus-border:after {
+  top: auto;
+  bottom: 0;
+}
+
+.effect-7~.focus-border i:before,
+.effect-7~.focus-border i:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 2px;
+  height: 0;
+  background-color: #6d28d9;
+  transition: 0.6s;
+}
+
+.effect-7~.focus-border i:after {
+  left: auto;
+  right: 0;
+}
+
+.effect-7:focus~.focus-border:before,
+.effect-7:focus~.focus-border:after {
+  left: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.effect-7:focus~.focus-border i:before,
+.effect-7:focus~.focus-border i:after {
+  top: 0;
+  height: 100%;
+  transition: 0.6s;
+}
