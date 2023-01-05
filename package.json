@@ -2,11 +2,9 @@
   "name": "@react-mask/input",
   "version": "1.0.0",
   "main": "./dist/input-mask.js",
+  "description": "Tiny input mask library for React.js (directive)",
   "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yazaldefilimonepinto/react-mask.git"
-  },
+  "repository": "https://github.com/yazaldefilimonepinto/react-mask",
   "files": [
     "./index.d.ts",
     "./dist/input-mask.js",
@@ -23,7 +21,11 @@
     "input",
     "input-mask"
   ],
-  "author": "Yazalde Filimone <yazaldefilimon@gmail.com>",
+  "author": {
+    "name": "Yazalde Filimone",
+    "email": "yazaldefilimon@gmail.com",
+    "url": "https://yazaldefilimone.vercel.app"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/yazaldefilimonepinto/react-mask/issues"
