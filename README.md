@@ -33,7 +33,7 @@ export const MyComponent = () => {
 };
 ```
 
-_Notice:_ returns a pure HTML input, you could put css or do what you would do with a normal input tag
+_Notice:_ returns a pure HTML input no style, you could put css or do what you would do with a normal input tag
 
 ## Exemple
 
