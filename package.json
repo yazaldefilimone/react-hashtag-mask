@@ -1,6 +1,6 @@
 {
   "name": "react-hashtag-mask",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/input-mask.js",
   "description": "Tiny input mask library for React.js (directive)",
   "type": "module",
